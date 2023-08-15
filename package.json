@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Kenson Johnson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
