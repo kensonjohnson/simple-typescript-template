@@ -33,13 +33,13 @@ This repo was made to give newcomers to TypeScript a simple environment to learn
 
 Some helpful npm scripts are available:
 
-npm start
+`npm start`
 
-npm run dev
+`npm run dev`
 
-npm run test
+`npm run test`
 
-npm run build
+`npm run build`
 
 ## Guided TypeScript Setup
 
