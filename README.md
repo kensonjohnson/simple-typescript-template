@@ -37,8 +37,6 @@ Some helpful npm scripts are available:
 
 `npm run dev`
 
-`npm run test`
-
 `npm run build`
 
 ## Guided TypeScript Setup
@@ -186,3 +184,5 @@ Inside of scripts add the following:
 Now you can just run `npm run dev` one time and it will start monitoring your project.
 Each time you save the file, it will run the TypeScript compiler and then run `index.js` from inside your `build` directory.
 Nice!
+
+**_When you want to stop the dev server, press CTRL + c on your keyboard_**

@@ -4,7 +4,7 @@
   "description": "A no bells and whistles template to setup a TypeScript project. Perfect for beginners just learning TS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon"
   },
   "keywords": [],
   "author": "Kenson Johnson",
