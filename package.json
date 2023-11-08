@@ -1,11 +1,13 @@
 {
   "name": "simple-typescript-template",
   "version": "1.0.0",
-  "type": "module",
   "description": "A no bells and whistles template to setup a TypeScript project. Perfect for beginners just learning TS.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon"
+    "start": "node build/index.js",
+    "build": "tsc",
+    "file": "ts-node",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "Kenson Johnson",
