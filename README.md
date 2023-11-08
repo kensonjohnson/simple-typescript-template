@@ -127,7 +127,7 @@ To test our setup, we should write a little bit of TS and run the compiler.
 Make an `index.ts` file in the `src` directory and add the following code:
 
 ```TypeScript
-const myMessage: String = "Hello TypeScript!"
+const myMessage: string = "Hello TypeScript!"
 
 console.log(myMessage)
 ```
@@ -307,7 +307,7 @@ Go back to your `index.ts` file and add a comment:
 
 ```TypeScript
 // This comment is only for the source code
-const myMessage: String = "Hello TypeScript!"
+const myMessage: string = "Hello TypeScript!"
 
 console.log(myMessage)
 ```
