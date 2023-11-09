@@ -2,6 +2,25 @@
 
 A no bells and whistles template to setup a TypeScript project. Perfect for beginners just learning TS.
 
+## Table of Contents
+
+- [Quick Start](#quick-start)
+  - [Two Ways to Run Your TS Files](#two-ways-to-run-your-ts-files)
+    - [Automatically (Recommended)](#automatically-recommended)
+    - [Manually](#manually)
+- [About This Repo](#about-this-repo)
+- [Usage](#usage)
+- [Guided TypeScript Setup](#guided-typescript-setup)
+  - [Project Setup](#project-setup)
+  - [Installing TypeScript](#installing-typescript)
+  - [Adding Types](#adding-types)
+  - [Testing the setup](#testing-the-setup)
+  - [Setting Up the Dev Environment](#setting-up-the-dev-environment)
+    - [ts-node](#ts-node)
+    - [nodemon](#nodemon)
+  - [Building For Production](#building-for-production)
+- [Conclusion](#conclusion)
+
 ## Quick Start
 
 Click on the "Use this template" button located above.
@@ -326,7 +345,7 @@ This is a very simple example of what happens when a framework builds your code 
 It's not useful here because it would be better to keep the comments in while you're learning TypeScript.
 I suggest changing the `removeComments` flag back to `false` in the `tsconfig.json` file for now.
 
-### Conclusion
+## Conclusion
 
 I hope this repo has helped you get started with TypeScript.
 It may seem overwhelming at first, but it's really not that bad. I suggest you start by writing some simple JavaScript in `.ts` files, which gives you many benefits from "infered types" and code completion. Start adding types to your variables, then to your functions, and eventually you will get the full benefits of TypeScript.
