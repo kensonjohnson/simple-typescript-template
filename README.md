@@ -249,7 +249,7 @@ The above configuration file is rather simple, and we can go over each bit:
 
 - `watch` tells nodemon which directories to look in.
 - `ext` specifies what file extensions to monitor.
-- `ignore` specifies files skip over and not watch.
+- `ignore` specifies files skip to over and not watch.
 - `exec` is the command that will be ran when a file is changed.
 
 What you might notice is that we aren't running `ts-node` in the `exec` command.
@@ -278,7 +278,7 @@ Open up the `package.json` and locate the section called `scripts`.
 Inside of scripts add the following:
 
 ```json
-"dev": "npx nodemon"
+"dev": "nodemon"
 ```
 
 Now you can just run `npm run dev` one time and it will start monitoring your project.
